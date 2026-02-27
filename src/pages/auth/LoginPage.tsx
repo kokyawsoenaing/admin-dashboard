@@ -80,6 +80,12 @@ const LoginPage = () => {
                         <p className="text-xs text-zinc-500 font-light tracking-wide">
                             Enter your credentials to access the dashboard
                         </p>
+                        <p className="text-xs text-zinc-500 font-light tracking-wide">
+                            Admin Email: admin@gmail.com
+                        </p>
+                        <p className="text-xs text-zinc-500 font-light tracking-wide">
+                            Password: password123
+                        </p>
                     </div>
 
                     <form onSubmit={handleLogin} className="space-y-5">

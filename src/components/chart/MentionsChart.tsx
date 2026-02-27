@@ -67,7 +67,7 @@ const MentionsChart = ({ sidebarOpen }: MentionsChartProps) => {
             chartInstanceRef.current.destroy();
         }
 
-        // ၃။ Custom Plugin create
+        //  Custom Plugin create
         const imagePlugin: Plugin<"bar"> = {
             id: "barAvatarPlugin",
             afterDatasetsDraw: (chart) => {
